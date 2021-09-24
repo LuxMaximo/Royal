@@ -1,0 +1,17 @@
+.menu {
+    width: 100%;
+    float: right;
+    text-align:center;
+    border: 5px solid;
+  }
+
+.menu ul li {
+    display:inline;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+
