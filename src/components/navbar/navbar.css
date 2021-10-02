@@ -1,0 +1,23 @@
+a { 
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    
+}
+h1 {
+    display: inline;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.navbar {
+    border: 5px solid;
+    border-color: coral;
+}
+
+.d {
+    padding: 715px;
+}
+
