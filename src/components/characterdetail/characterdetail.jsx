@@ -1,12 +1,19 @@
-import React from "react";
+import React, {  useState } from "react";
 import Datos from "../data.json"
 
-function mostrarValor(){
-    var valor = document.getElementsByName('seleccion').values;
-    return console.log(valor);
+
+function obtenerValor(e){
+    var v = e.target.value;
+   console.log(v);
+   let array = [];
+   array = [ Datos.Personajes[v].nombre, 
+   Datos.Personajes[v].apodo,
+   Datos.Personajes[v].posicion,
+   Datos.Personajes[v].recompenza,
+   Datos.Personajes[v].sueño]
+   console.log(array)
+   return <td>{array}</td>;
 }
-
-
 
 export default function characterDetail(){
 
@@ -14,7 +21,8 @@ export default function characterDetail(){
     return(
             <div>
                 
-                <select  name="seleccion" onChange={mostrarValor()}>
+                <select  name="seleccion" id="seleccion" onChange={(e) =>obtenerValor(e)}>
+                    <option> Seleccione un personaje</option>
                     <option value={0} >{Datos.Personajes[0].nombre}</option>
                     <option value={1}>{Datos.Personajes[1].nombre} </option>
                     <option value={2}>{Datos.Personajes[2].nombre} </option>
@@ -32,7 +40,10 @@ export default function characterDetail(){
 
             <table>
                 <tr>
-                    <td ></td>
+                    <td> Nombre</td>
+                </tr>
+                <tr>
+                    <td value="sssss"> {obtenerValor }</td>
                 </tr>
             </table>
             </div>

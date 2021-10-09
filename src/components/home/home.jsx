@@ -1,18 +1,17 @@
 import React from "react";
-import "./home.css";
 import Character from "../character/character";
 
 
 
 export default class Home extends React.Component{
-    constructor(props){
+    /*constructor(props){
         super(props);
-    }
+    }*/
 
     
     render(){
         return(
-            <div>
+            <div >
                 <Character/>
             </div>
             )

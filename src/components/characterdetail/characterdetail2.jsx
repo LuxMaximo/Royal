@@ -1,13 +1,13 @@
 import aaa from "../data.json"
 import { useParams } from "react-router";
 
-
 export default function characterDetail2(){
-  /*  
-    const Parametro = useParams();
+ 
+    const parametro = useParams();
 
     let array=[];
 
+    function encontrado(e){
     array.forEach(element => {
         parametro.id === aaa.Personajes[element].id ? 
         array.map(aaa.Personajes[element].nombre,
@@ -18,11 +18,12 @@ export default function characterDetail2(){
             aaa.Personajes[element].Ciudad,
             aaa.Personajes[element].amigos): "No existe"
         });
-        <h1>{parametro.id}</h1>
-*/
+    }
+       
+
     return(
         <>
-        
+        <h1>{parametro.id}</h1> 
         
         </>
     )

@@ -1,0 +1,18 @@
+.letra{
+    color: aquamarine;
+    text-align: center;
+
+}
+
+
+
+.link{
+    color: rgba(197, 12, 89, 0.466);
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.separacion{
+    width: 220px;
+}
