@@ -1,0 +1,17 @@
+.navbar{
+    display: inline;
+    text-align: right;
+    margin-left: 65%;
+    font-size: 23px;
+}
+
+.r{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.d{
+    margin-left: 3%;
+    text-decoration: none;
+    color:aliceblue;
+}

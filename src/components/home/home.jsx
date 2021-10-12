@@ -1,19 +1,23 @@
 import React from "react";
-import "./home.css";
 import Character from "../character/character";
 
 export default class Home extends React.Component{
-    constructor(props){
+    /*constructor(props){
         super(props);
-    }
+    }*/
 
     
     render(){
         return(
+<<<<<<< HEAD
             <div class="menu">
                 <ul>
                     <li><Character fotos={this.props.foto} nombre={this.props.nombre}/></li>
                 </ul>
+=======
+            <div >
+                <Character/>
+>>>>>>> 5e0f18f (TP de formulario y CSS)
             </div>
             )
     }

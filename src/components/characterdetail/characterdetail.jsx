@@ -1,10 +1,26 @@
-import React from "react";
+import React, {  useState } from "react";
 import Datos from "../data.json"
 
+<<<<<<< HEAD
 export default class characterDetail extends React.Component{
     constructor(){
         super();
     }
+=======
+
+function obtenerValor(e){
+    var v = e.target.value;
+   console.log(v);
+   let array = [];
+   array = [ Datos.Personajes[v].nombre, 
+   Datos.Personajes[v].apodo,
+   Datos.Personajes[v].posicion,
+   Datos.Personajes[v].recompenza,
+   Datos.Personajes[v].sueño]
+   console.log(array)
+   return <td>{array}</td>;
+}
+>>>>>>> 5e0f18f (TP de formulario y CSS)
 
 mostrar(){
     
@@ -19,8 +35,14 @@ mostrar(){
         return(
             <div>
                 
+<<<<<<< HEAD
                 <select id="seleccion" onChange={this.mostrar}>
                     <option value={0}>{Datos.Personajes[0].nombre}</option>
+=======
+                <select  name="seleccion" id="seleccion" onChange={(e) =>obtenerValor(e)}>
+                    <option> Seleccione un personaje</option>
+                    <option value={0} >{Datos.Personajes[0].nombre}</option>
+>>>>>>> 5e0f18f (TP de formulario y CSS)
                     <option value={1}>{Datos.Personajes[1].nombre} </option>
                     <option value={2}>{Datos.Personajes[2].nombre} </option>
                     <option value={3}>{Datos.Personajes[3].nombre} </option>
@@ -37,6 +59,17 @@ mostrar(){
                 <li>{}</li>
             </ul>
 
+<<<<<<< HEAD
+=======
+            <table>
+                <tr>
+                    <td> Nombre</td>
+                </tr>
+                <tr>
+                    <td value="sssss"> {obtenerValor }</td>
+                </tr>
+            </table>
+>>>>>>> 5e0f18f (TP de formulario y CSS)
             </div>
             )}
 }

@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
+=======
+import { BrowserRouter } from 'react-router-dom';
+>>>>>>> 5e0f18f (TP de formulario y CSS)
 
 ReactDOM.render(
   //<React.StrictMode>
