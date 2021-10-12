@@ -7,7 +7,7 @@
             "recompenza" : 1500000000,
             "posicion": "Capitan",
             "foto": "./image/Monkey_D._Luffy.png",
-            "sueño":"Sere el rey de los piratas",
+            "sueño":"ser el rey de los piratas",
             "amigos": ["Nami" , "Franky" , "Usoop" , "Sanji" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "Villa Foosha" 
         },
@@ -17,7 +17,7 @@
             "recompenza" : 320000000,
             "posicion": "Mano derecha del Capitan",
             "foto": "./image/Roronoa_Zoro.png",
-            "sueño":"Llegar a ser el mejor espadachín del mundo",
+            "sueño":"llegar a ser el mejor espadachín del mundo",
             "amigos": ["Nami" , "Franky" , "Usopp" , "Sanji" , "Luffy", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "villa Shimotsuki" 
         },
@@ -27,7 +27,7 @@
             "recompenza" : 66000000,
             "posicion": "Navegante",
             "foto": "./image/Nami.png",
-            "sueño":"Dibujar un mapa de todo el mundo",
+            "sueño":"dibujar un mapa de todo el mundo",
             "amigos": ["Luffy" , "Franky" , "Usopp" , "Sanji" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "Villa Cocoyasi" 
         },
@@ -37,7 +37,7 @@
             "recompenza" : 200000000,
             "posicion": "Francotirador",
             "foto": "./image/Usopp",
-            "sueño":"Convertirse en un valiente pirata y visitar Elbaf, la tierra de los valientes guerreros",
+            "sueño":"convertirme en un valiente pirata y visitar Elbaf, la tierra de los valientes guerreros",
             "amigos": ["Nami" , "Franky" , "Luffy" , "Sanji" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "Villa Syrup" 
         },
@@ -47,7 +47,7 @@
             "recompenza" : 330000000,
             "posicion": "Cocinero",
             "foto": "./image/Sanji",
-            "sueño":"Encontrar el All Blue",
+            "sueño":"encontrar el All Blue",
             "amigos": ["Nami" , "Franky" , "Usopp" , "Luffy" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "nacido Reino Germa, criado en el Baratie" 
         },
@@ -57,7 +57,7 @@
             "recompenza" : 100,
             "posicion": "Médico",
             "foto": "./image/Tony_Tony_Chopper",
-            "sueño":"Ser capaz de curar cualquier enfermedad",
+            "sueño":"ser capaz de curar cualquier enfermedad",
             "amigos": ["Nami" , "Franky" , "Usoop" , "Sanji" , "Zoro", "Luffy", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "Isla de Drum" 
         },
@@ -67,7 +67,7 @@
             "recompenza" : 130000000,
             "posicion": "Arqueóloga",
             "foto": "./image/Nico_Robin.png",
-            "sueño":"Encontrar el Road Poneglyph y descubrir qué ocurrió en los cien años de historia perdida",
+            "sueño":"encontrar los Road Poneglyph y descubrir qué ocurrió en los cien años de historia perdida",
             "amigos": ["Nami" , "Franky" , "Usopp" , "Sanji" , "Zoro", "Chopper", "Brook" , "Luffy" , "Jibe"],
             "Ciudad": "Ohara (Ciudad destruida)" 
         },
@@ -77,7 +77,7 @@
             "recompenza" : 94000000,
             "posicion": "Carpintero naval",
             "foto": "./image/Franky.png",
-            "sueño":"Hacer un barco de ensueño y darle la vuelta al mundo como su carpintero de a bordo. (Parte del sueño fue cumplido al construir el Thousand Sunny)",
+            "sueño":"hacer un barco de ensueño y darle la vuelta al mundo como su carpintero de a bordo. (Parte del sueño fue cumplido al construir el Thousand Sunny)",
             "amigos": ["Nami" , "Luffy" , "Usopp" , "Sanji" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Jibe"],
             "Ciudad": "Water 7 (Grand Line)" 
         },
@@ -87,7 +87,7 @@
             "recompenza" : 83000000,
             "posicion": "Músico",
             "foto": "./image/Brook.png",
-            "sueño":"Reencontrarse con Laboon(La ballena en la entrada al Grand Line)",
+            "sueño":"reencontrarme con Laboon(La ballena en la entrada al Grand Line)",
             "amigos": ["Nami" , "Franky" , "Usopp" , "Sanji" , "Zoro", "Chopper", "Luffy" , "Nico Robin" , "Jibe"],
             "Ciudad": "Florian Triangle" 
         },
@@ -97,7 +97,7 @@
             "recompenza" : 438000000,
             "posicion": "Timonero",
             "foto": "./image/Jinbe.png",
-            "sueño":"Poder ver a su raza vivir en la superficie en paz con el resto del mundo",
+            "sueño":"poder ver a su raza vivir en la superficie en paz con el resto del mundo",
             "amigos": ["Nami" , "Franky" , "Usopp" , "Sanji" , "Zoro", "Chopper", "Brook" , "Nico Robin" , "Luffy"],
             "Ciudad": "Isla Gyojin" 
         }

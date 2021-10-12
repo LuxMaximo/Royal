@@ -2,20 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import estilo from './about.module.css'
 
-<<<<<<< HEAD
-export default class about extends React.Component{
-    constructor(){
-        super();
-    }
-    render(){
-=======
+
 export default function about(){
-    const  style={
+  /*  const  style={
         separacion:{
             margin:"0 20%"
-        }
-    }
->>>>>>> 5e0f18f (TP de formulario y CSS)
+        }*/
+
         return(
 
             <div className={estilo.letra}>
@@ -35,6 +28,6 @@ export default function about(){
                 </tr>        
                    
             </div>
-            )}
+            )
 }
 //Mostrar informacion sobre el creador de la APP.

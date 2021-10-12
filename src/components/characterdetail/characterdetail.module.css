@@ -1,0 +1,14 @@
+.posicionCard{
+    height: 100%;
+    width: 30rem;
+    margin-left: 40%;
+}
+
+.rellenoCard{
+    background-color: transparent;
+}
+
+.imagenes{
+    height: 920px;
+    width: 400px;
+}
