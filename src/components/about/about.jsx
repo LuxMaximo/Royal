@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import estilo from './about.module.css'
 
 export default function about(){
-    const  style={
+  /*  const  style={
         separacion:{
             margin:"0 20%"
         }
-    }
+    }*/
         return(
 
             <div className={estilo.letra}>
