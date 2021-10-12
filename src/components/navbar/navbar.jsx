@@ -1,11 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
-import "./navbar.css";
-=======
 import {Link } from 'react-router-dom';
 import estilo from './navbar.module.css';
 import {Nav} from 'react-bootstrap';
->>>>>>> 5e0f18f (TP de formulario y CSS)
 
 export default class Navbar extends React.Component{
    /* constructor(){
@@ -20,14 +16,6 @@ export default class Navbar extends React.Component{
             }
         }
         return(
-<<<<<<< HEAD
-            <div class="navbar">
-                
-                    <h1 class="nombreApp"> Royal</h1>
-                    <a href="#" class="d"> Character Detail</a>                   
-                    <a href="#"> About</a>
-                
-=======
             
             <div>
                 <Nav variant="pills"  defaultActiveKey="link-0" >
@@ -50,7 +38,6 @@ export default class Navbar extends React.Component{
                 </Nav.Item>
                 </Nav>
                 <br/>
->>>>>>> 5e0f18f (TP de formulario y CSS)
             </div>
                 )
     }

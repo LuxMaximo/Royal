@@ -2,6 +2,7 @@
 {
     "Personajes": [
         {   
+            "id": 1,
             "nombre": "Monkey D. Luffy",
             "apodo": "Sombrero de paja",
             "recompenza" : 1500000000,
@@ -12,6 +13,7 @@
             "Ciudad": "Villa Foosha" 
         },
         {   
+            "id": 2,
             "nombre": "Roronoa Zoro",
             "apodo": "Cazador de Piratas",
             "recompenza" : 320000000,
@@ -22,6 +24,7 @@
             "Ciudad": "villa Shimotsuki" 
         },
         {   
+            "id": 3,
             "nombre": "Nami",
             "apodo": "Gata ladrona",
             "recompenza" : 66000000,
@@ -32,6 +35,7 @@
             "Ciudad": "Villa Cocoyasi" 
         },
         {   
+            "id": 4,
             "nombre": "Usopp",
             "apodo": "Dios Usoop",
             "recompenza" : 200000000,
@@ -42,6 +46,7 @@
             "Ciudad": "Villa Syrup" 
         },
         {   
+            "id": 5,
             "nombre": "Sanji Vinsmoke",
             "apodo": "Piernas Negras",
             "recompenza" : 330000000,
@@ -52,6 +57,7 @@
             "Ciudad": "nacido Reino Germa, criado en el Baratie" 
         },
         {   
+            "id": 6,
             "nombre": "TonyTony Chooper",
             "apodo": "El Amante del Algodón de Azúcar",
             "recompenza" : 100,
@@ -62,6 +68,7 @@
             "Ciudad": "Isla de Drum" 
         },
         {   
+            "id": 7,
             "nombre": "Nico Robin",
             "apodo": "Niña Demonio",
             "recompenza" : 130000000,
@@ -72,6 +79,7 @@
             "Ciudad": "Ohara (Ciudad destruida)" 
         },
         {   
+            "id": 8,
             "nombre": "Franky",
             "apodo": "Cyborg",
             "recompenza" : 94000000,
@@ -82,6 +90,7 @@
             "Ciudad": "Water 7 (Grand Line)" 
         },
         {   
+            "id": 9,
             "nombre": "Brook",
             "apodo": "King of Soul",
             "recompenza" : 83000000,
@@ -92,6 +101,7 @@
             "Ciudad": "Florian Triangle" 
         },
         {   
+            "id": 10,
             "nombre": "Jinbe",
             "apodo": "El caballero del Mar",
             "recompenza" : 438000000,

@@ -1,15 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-
-
-export default class character extends React.Component{
-    constructor(props){
-        super(props);
-    }
-     
-    render(){
-=======
 import {Link} from 'react-router-dom';
 import aaa from '../data.json';
 import luffy from '../image/Monkey_D._Luffy.png';
@@ -37,22 +26,9 @@ export default function character(){
             color: "yellow"
         }
     }
->>>>>>> 5e0f18f (TP de formulario y CSS)
         return(
             
             <div>
-<<<<<<< HEAD
-                <div>
-                    <h2> Imagen</h2>
-                    <img src={this.props.fotos}/>
-                    <h2> Nombre</h2>
-                    <h3 >{this.props.nombre}</h3>
-                </div>
-            </div>
-        )}
-}
-//Mostrar la Foto y el Nombre del personaje recibidos por props.
-=======
                <Carousel>
                    
                <Carousel.Item>
@@ -65,6 +41,7 @@ export default function character(){
                     </Carousel.Caption>
                 </Carousel.Item>
 
+
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[1].id}`}>
                         <img style={style.imagen} src={zoro} alt="no hay imagen"/>
@@ -74,6 +51,7 @@ export default function character(){
                     <h5 style={style.letra}>{aaa.Personajes[1].apodo}</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
+
 
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[2].id}`}>
@@ -85,6 +63,7 @@ export default function character(){
                     </Carousel.Caption>
                 </Carousel.Item>
 
+
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[3].id}`}>
                         <img style={style.imagen} src={usoop} alt="no hay imagen"/>
@@ -94,6 +73,7 @@ export default function character(){
                     <h5 style={style.letra}>{aaa.Personajes[3].apodo}</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
+
 
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[4].id}`}>
@@ -105,6 +85,7 @@ export default function character(){
                     </Carousel.Caption>
                 </Carousel.Item>
 
+
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[5].id}`}>
                         <img style={style.imagen} src={chopper} alt="no hay imagen"/>
@@ -114,6 +95,7 @@ export default function character(){
                     <h5 style={style.letra}>{aaa.Personajes[5].apodo}</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
+
 
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[6].id}`}>
@@ -125,6 +107,7 @@ export default function character(){
                     </Carousel.Caption>
                 </Carousel.Item>
 
+
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[7].id}`}>
                         <img style={style.imagen} src={franky} alt="no hay imagen"/>
@@ -135,6 +118,7 @@ export default function character(){
                     </Carousel.Caption>
                 </Carousel.Item>
 
+
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[8].id}`}>
                         <img style={style.imagen} src={brook} alt="no hay imagen"/>
@@ -144,6 +128,7 @@ export default function character(){
                     <h5 style={style.letra}>{aaa.Personajes[8].apodo}</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
+
 
                 <Carousel.Item>
                     <Link to={`/charDetail2/${aaa.Personajes[9].id}`}>
@@ -196,4 +181,3 @@ export default function character(){
                         <td><Link to={`/charDetail2/${aaa.Personajes[9].id}`}><img src={jinbe} alt="no hay imagen"/></Link></td>
                     </tr>
                 </table>*/
->>>>>>> 5e0f18f (TP de formulario y CSS)

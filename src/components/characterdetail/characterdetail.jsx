@@ -56,9 +56,7 @@ export default function CharacterDetail(){
             <div>
                 <Form.Select aria-label="Default select example" style={estilo1.style} className={estilo.seleccion} onChange={(e) =>obtenerValor(e)}>
                     <option hidden={mostrar ? true : false}> Seleccione un personaje</option>
-
                     <option value={0} >{Datos.Personajes[0].nombre}</option>
-
                     <option value={1}>{Datos.Personajes[1].nombre} </option>
                     <option value={2}>{Datos.Personajes[2].nombre} </option>
                     <option value={3}>{Datos.Personajes[3].nombre} </option>
@@ -68,8 +66,11 @@ export default function CharacterDetail(){
                     <option value={7}>{Datos.Personajes[7].nombre} </option>
                     <option value={8}>{Datos.Personajes[8].nombre} </option>
                     <option value={9}>{Datos.Personajes[9].nombre} </option>
-
                 </Form.Select>
+               
+
+            
+
                 <Card className={estilo.posicionCard} hidden={mostrar === false ? true : false} >
                     <Card.Img variant="top" className={estilo.imagenes} src={
                         estado.pj[5] === 1 ? luffy : 
@@ -80,7 +81,8 @@ export default function CharacterDetail(){
                         estado.pj[5] === 6 ? chopper :
                         estado.pj[5] === 7 ? robin :
                         estado.pj[5] === 8 ? franky :
-                        estado.pj[5] === 9 ? brook : jinbe
+                        estado.pj[5] === 9 ? brook :
+                        estado.pj[5] === 10 ? jinbe : ""
                     } />
                     <Card.Body>
                         <Card.Title>{estado.pj[0]}</Card.Title>
@@ -110,8 +112,8 @@ export default function CharacterDetail(){
                 </Card>
             </div>
             )}
+            /*
 
-
-
+*/
 //Tener un select con los nombres de los personajes Mockeados en el archivo json.
 //Al seleccionar alguno de los nombres en el Select, Mostrar la informacion mas detallada de ese personaje.
